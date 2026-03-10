@@ -1,0 +1,186 @@
+body, html {
+   margin: 0; 
+  padding: 0;
+   height: 100%;
+    font-family: sans-serif;
+   }
+
+#bg-image {
+  height: 100vh;
+  background-image: url("https://media.triumphmotorcycles.co.uk/image/upload/f_auto/q_auto:eco/sitecoremedialibrary/media-library/images/home/hompage%20images/full%20width%20cta/homepage-fwcta-alt-1920x768.jpg");
+  background-size: cover; background-position: center; background-repeat: no-repeat;
+}
+#bg1-image {
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1558981403-c5f9899a28bc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover; background-position: center; background-repeat: no-repeat;
+}
+
+#bg2-image {
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1591293835940-934a7c4f2d9b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover; background-position: center; background-repeat: no-repeat;
+}
+
+
+#nav {
+  display: flex;
+   background-color: #1F2937;
+    padding: 20px 40px;
+     justify-content: space-evenly;
+      align-items: center;
+     }
+
+
+
+#nav a { 
+  color: #FFFFFF;
+   text-decoration: none; 
+   font-weight: 500;
+   }
+
+
+#nav a:hover { 
+  color: #3B82F6; 
+}
+
+#bikes{
+   display: flex;
+    justify-content: space-evenly;
+     padding: 20px;
+      background-color:#1E1E1E; 
+      color: #FFFFFF;
+       flex-wrap: wrap;
+        gap: 20px;
+       }
+
+
+.bike {
+   display: flex;
+    flex-direction: column;
+     align-items: center;
+      background: #2a2a2a;
+       padding: 15px;
+        border-radius: 8px;
+       }
+
+.bike img {
+   width: 300px;
+  height: 200px;
+  object-fit: cover;
+     }
+
+.tap {
+   background-color:#2563EB;
+    color: #FFFFFF;
+     border: none;
+      padding: 12px 24px;
+       border-radius: 6px;
+        cursor: pointer;
+         margin-top: 10px; 
+        }
+
+#color {
+   position: absolute;
+    top: 25px;
+     right: 300px;
+      background: none;
+       border: none;
+        font-size: 22px; 
+        cursor: pointer;
+       }
+
+/* SEARCH BOX STYLING */
+.search-wrapper { 
+  width: 350px; 
+  margin: 20px auto;
+   position: relative;
+   }
+
+#vehicleSearch {
+   width: 100%;
+    padding: 10px;
+     border-radius: 5px;
+      border: 1px solid #ccc;
+       outline: none;
+       }
+
+#suggestion-box {
+  position: absolute;
+  width: 100%;
+  background: white;
+  color: black;
+  z-index: 1000;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.suggestion-item { 
+  padding: 10px; 
+  cursor: pointer;
+   border-bottom: 1px solid #eee;
+   
+  }
+
+.suggestion-item:hover {
+   background-color: cornflowerblue;
+    color: white; 
+  }
+
+.search-wrapper {
+  width: 350px;
+  margin: 20px auto;
+  position: relative;
+  text-align: left; /* Keeps text inside aligned */
+}
+
+#vehicleSearch {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+#suggestion-box {
+  position: absolute;
+  width: 100%;
+  background: white;
+  color: black;
+  z-index: 1000;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.suggestion-item {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+}
+
+.suggestion-item:hover {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+#services {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px 20px;
+  background-color: #1E1E1E;
+  color: #FFFFFF;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+#contact {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px 20px;
+  background-color: #1E1E1E;
+  color: #FFFFFF;
+  flex-wrap: wrap;
+  gap: 30px;
+}
